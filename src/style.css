@@ -97,3 +97,16 @@ small {
   background-color: purple;
   border: 1px solid purple;
 }
+
+.weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+}
+
+.weather-forecast-temperature-max {
+  color: black;
+}
