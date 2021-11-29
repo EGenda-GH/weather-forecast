@@ -39,15 +39,6 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-a {
-  color: #878787;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: purple;
-}
-
 small {
   font-weight: 300;
 }
@@ -98,15 +89,36 @@ small {
   border: 1px solid purple;
 }
 
+.forecast-days {
+  margin-top: 18px;
+  color: purple;
+  font-weight: 700;
+}
+
 .weather-forecast {
-  margin-top: 25px;
+  margin-top: 15px;
   text-align: center;
 }
 
 .weather-forecast-date {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: purple;
 }
 
 .weather-forecast-temperature-max {
-  color: black;
+  color: #000;
+}
+
+.footer {
+  color: #000;
+}
+
+.footer-link {
+  color: rgb(62, 62, 62);
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  color: purple;
 }
